@@ -1,38 +1,58 @@
-🚀 Retail Intelligence & District Management Dashboard
-📌 Project Overview
-This project presents a strategic Business Case for a Merchandising District Manager role. It’s designed to bridge the gap between complex data and executive decision-making. In the retail industry, success depends on the perfect harmony between sales performance, inventory availability, and flawless store execution.
+# 🚀 Retail Intelligence & District Management Dashboard
 
-This tool provides a 360° view of the operation, allowing leaders to identify growth opportunities and operational bottlenecks in real-time.
+> **Business Case:** Optimización estratégica para la gestión de distritos de Merchandising y análisis de Key Account Management (KAM).
 
-🖼️ Dashboard Preview
-💡 Business Insights (Executive Summary)
-Financial Health: Analyzing a $5.04M Total Sell-Out. While we see a steady 0.18% YoY Growth, the dashboard pinpoints specific weeks where strategic promotions could boost performance.
+---
 
-Operational Excellence: With an 89.7% Fill Rate, we monitor the balance between stock levels and demand to ensure customers always find what they need, avoiding the "empty shelf" cost.
+## 📋 Project Overview
+Este proyecto cierra la brecha entre los datos operativos complejos y la toma de decisiones ejecutiva. En el sector retail, el éxito depende de la armonía entre el rendimiento de ventas, la disponibilidad de inventario y una ejecución impecable en tienda.
 
-Field Performance: We cross-reference visit frequency with store compliance. This allows us to mentor the field team based on data, focusing on high-impact stores.
+Este dashboard proporciona una visión de 360° de la operación, permitiendo identificar oportunidades de crecimiento y cuellos de botella operativos en tiempo real.
 
-📖 Glossary: Understanding the Metrics
-Sell-Out: Total sales made to the end consumer at the store level.
+---
 
-YoY (Year over Year) Growth: Performance comparison against the same period in the previous year.
+## 💡 Business Insights (Executive Summary)
 
-Fill Rate: Efficiency of the supply chain; it’s the percentage of ordered items that actually reached the shelf.
+| Pilar | Métrica Clave | Insight Estratégico |
+| :--- | :--- | :--- |
+| **Salud Financiera** | $5.04M Total Sell-Out | Crecimiento constante del 0.18% YoY. Se identificaron semanas específicas para potenciar promociones. |
+| **Excelencia Operativa** | 89.7% Fill Rate | Monitoreo del balance entre stock y demanda para evitar el costo de "estante vacío". |
+| **Desempeño en Campo** | Cumplimiento de Visitas | Mentoría basada en datos para el equipo de campo, priorizando tiendas de alto impacto. |
 
-DOH (Days On Hand): How many days our current inventory will last.
+---
 
-Planogram Compliance: Measuring how accurately the products are displayed according to the brand's visual strategy.
+## 🛠️ Tech Stack & Methodology
 
-🛠️ Tech Stack & Methodology
-Data Source: Raw multi-sheet operational data (View Dataset).
+*   **Data Source:** Datos operativos multi-hoja (Raw Data).
+*   **ETL Process:** Limpieza y normalización de datos "reales" mediante **Power Query**.
+*   **Modeling:** Implementación de esquemas de estrella y medidas **DAX** para análisis de inteligencia de tiempo.
+*   **UX Design:** Interfaz en *Dark Mode* de alto contraste para resaltar puntos de datos críticos.
 
-Data Transformation: Full Power Query ETL process to clean and normalize "real-world" messy data.
+---
 
-Data Modeling: Implementation of star schemas and DAX measures for time-intelligence analysis.
+## 📊 Dashboard Preview
+*(Asegúrate de que el nombre del archivo sea exacto)*
+![Main Dashboard](Images/tu_imagen_principal.png)
 
-UX Design: High-contrast Dark Mode interface for enhanced focus on key data points.
+---
+
+## 📖 Glosario de Métricas
+<details>
+  <summary>Click para expandir definiciones</summary>
+
+*   **Sell-Out:** Ventas totales realizadas al consumidor final.
+*   **YoY (Year over Year):** Comparativa de rendimiento contra el mismo periodo del año anterior.
+*   **Fill Rate:** Eficiencia de la cadena de suministro (pedidos vs. productos en estante).
+*   **DOH (Days On Hand):** Proyección de cuántos días durará el inventario actual.
+*   **Planogram Compliance:** Medición de apego a la estrategia visual de la marca.
+</details>
+
+---
 
 ## 📂 Project Structure
-*   **[Dashboard File](Dashboard/BusinessCase_MerchandisingSupervisor.pbix):** The interactive Power BI report showcasing all KPIs.
-*   **[Raw Data](Data/Retail_Sales_Operations_Data.xlsx):** The original dataset used for this analysis, processed via Power Query.
-*   **[Visual Assets](Images/Retail_Intelligence_Dashboard.png):** High-resolution preview of the final dashboard.
+
+*   [📂 Dashboard](Dashboard/): Archivo interactivo de Power BI con todos los KPIs.
+*   [📂 Data](Data/): Dataset original procesado.
+*   [📂 Images](Images/): Recursos visuales y capturas de pantalla.
+
+---
