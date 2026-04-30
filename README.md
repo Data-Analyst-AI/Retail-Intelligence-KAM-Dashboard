@@ -31,8 +31,7 @@ This dashboard provides a 360° view of the operation, allowing leaders to ident
 ---
 
 ## 📊 Dashboard Preview
-*(Replace the placeholder below with your actual image path)*
-![Main Dashboard Preview](Images/image_1cc6a6.png)
+![Main Dashboard Preview](Images/Retail_Intelligence_Dashboard.png)
 
 ---
 
@@ -51,8 +50,8 @@ This dashboard provides a 360° view of the operation, allowing leaders to ident
 
 ## 📂 Project Structure
 
-*   [📂 Dashboard](Dashboard/): Interactive Power BI (.pbix) files.
-*   [📂 Data](Data/): Processed datasets used for the analysis.
-*   [📂 Images](Images/): High-resolution screenshots and visual assets.
+*   [📂 Dashboard](Dashboard/BusinessCase_MerchandisingSupervisor.pbix): Interactive Power BI (.pbix) files.
+*   [📂 Data](Data/Retail_Sales_Operations_Data.xlsx): Processed datasets used for the analysis.
+*   [📂 Images](Images/Retail_Intelligence_Dashboard.png): High-resolution screenshots and visual assets.
 
 ---
